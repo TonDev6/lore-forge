@@ -1,0 +1,33 @@
+:root {
+    /* Base Colors */
+    --forge-bright: #F53500;
+    --forge-opaque: #C24827;
+    --dirty-bright: #8F4C39;
+    --dirty-bright: #5C3F37;
+    --darkest: #332B29;
+
+    /*  */
+}
+
+.everything {
+    background-color: var(--darkest);
+}
+
+.allcontent {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigbar {
+    display: flex;
+    background-color: #221f1e;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+}
+
+.navigbar > li {
+    text-align: center;
+    height: 50px;
+    width: 80px;
+}
