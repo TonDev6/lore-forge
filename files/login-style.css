@@ -37,10 +37,16 @@ body {
     border: 3px solid var(--forge-opaque);
     border-radius: 20px;
     box-shadow: 0 0 5px 1px var(--darkest);
-    height: 400px;
+    height: 450px;
     width: 350px;
     margin: 100px auto;
     padding: 10px 5px;
+}
+
+.divline {
+    align-self: center;
+    margin: 0 auto;
+    width: 300px;
 }
 
 .login-title {
@@ -49,10 +55,17 @@ body {
     font-weight: 800;
     color: antiquewhite;
     text-shadow: 1px 1px 3px var(--forge-bright);
-    
 }
 
-.user-space {
+.login-subtitle {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    color: var(--forge-opaque);
+    text-shadow: 1px 1px 3px var(--darkest)
+}
+
+.field-space {
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -60,20 +73,12 @@ body {
     margin: 5px 0;
 }
 
-.user-space > p {
+.field-space > p {
     margin: 0;
 }
 
-.pass-space {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    padding: 0 20px;
-    margin: 5px 0;
-}
-
-.pass-space > p {
-    margin: 0;
+.field-box {
+    box-shadow: 0.3px 1px 2px 1px var(--forge-opaque);
 }
 
 .login-input {
@@ -89,6 +94,31 @@ body {
     color: antiquewhite;
     font-weight: 600;
     text-shadow: 1px 1px 3px black;
+    box-shadow: 0 1px 5px 1px var(--darkest);
+}
+
+.google-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.glogin-txt {
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    font-style: italic;
+    color: rgb(189, 172, 165);
+    text-shadow: 1px 1px 3px black;
+}
+
+.google-ico {
+    margin: 0 auto;
+}
+
+.google-ico > a > img {
+    width: 40px;
+    margin-top: 5px;
 }
 
 /* Footer */
