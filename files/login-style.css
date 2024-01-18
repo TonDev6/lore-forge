@@ -1,20 +1,3 @@
-:root {
-    /* Base Colors */
-    --forge-bright: #F53500;
-    --forge-opaque: #C24827;
-    --dirty-bright: #8F4C39;
-    --dirty-dark: #5C3F37;
-    --darkest: #332B29;
-
-    /*  */
-}
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 body {
     height: 100vh;
     background-image: url('../media/images/login-bg.jpg');
@@ -85,7 +68,7 @@ body {
     text-align: center;
 }
 
-.login-input > input {
+.login-input-btn {
     height: 40px;
     width: 110px;
     background-color: var(--forge-bright);
@@ -95,6 +78,10 @@ body {
     font-weight: 600;
     text-shadow: 1px 1px 3px black;
     box-shadow: 0 1px 5px 1px var(--darkest);
+}
+
+.login-input-btn:active {
+    background-color: var(--forge-opaque);
 }
 
 .google-login {

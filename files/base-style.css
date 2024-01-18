@@ -34,7 +34,7 @@
     
 }
 
-.logo {
+.logo {width: 125px;
     font-weight: 800;
     font-size: 25px;
     padding-left: 15px;
@@ -49,15 +49,31 @@
 .navigbar {
     list-style-type: none;
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     padding: 0;
+    height: 50px;
 }
 
 .navigbar > li {
-    padding: 0 40px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 120px;
+    height: 100%;
 }
 
-.navigbar > li > a {
+.navigbar > li :hover {
+    background-color: var(--darkest);
+}
+
+.navlink {
+    height: 100%;
+    width: 100%;
+    padding-top: 10px;
     text-decoration: none;
     color: antiquewhite;
     font-weight: 800;
