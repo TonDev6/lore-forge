@@ -4,8 +4,9 @@ body {
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
+
+
 
 .allcontent-login {
     display: flex;
@@ -21,6 +22,20 @@ body {
     border-radius: 20px;
     box-shadow: 0 0 5px 1px var(--darkest);
     height: 450px;
+    width: 350px;
+    margin: 100px auto;
+    padding: 10px 5px;
+}
+
+#register-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--dirty-dark);
+    border: 3px solid var(--forge-opaque);
+    border-radius: 20px;
+    box-shadow: 0 0 5px 1px var(--darkest);
+    height: 550px;
     width: 350px;
     margin: 100px auto;
     padding: 10px 5px;
@@ -42,7 +57,7 @@ body {
 
 .login-subtitle {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 10px;
     font-weight: 600;
     color: var(--forge-opaque);
     text-shadow: 1px 1px 3px var(--darkest)
@@ -66,6 +81,7 @@ body {
 
 .login-input {
     text-align: center;
+    margin: 10px 0;
 }
 
 .login-input-btn {
@@ -82,6 +98,17 @@ body {
 
 .login-input-btn:active {
     background-color: var(--forge-opaque);
+}
+
+.register-txt {
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.register-txt > p > a {
+    color: antiquewhite
 }
 
 .google-login {

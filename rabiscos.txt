@@ -1,0 +1,25 @@
+Barra de navegação
+    - Campo Esquerdo:
+        - Meus Mundos
+        - Explorar (outros mundos criados)
+
+    - Canto Direito:
+        - Campo de perfil
+
+Tela Inicial do Painel do Criador
+    - Box (cards) com os mundos criados com Nome e Thumbnail
+
+
+
+
+            /* Mundo Selecionado */
+
+Menu Lateral Esquerdo (fixo) - Mundo Selecionado
+    - Novo Artigo
+        - +Artigo (Página Inicial)
+        - +Local (divisão por descrição: reino/cidade/estabelecimento)
+        - +Personagem
+
+    - Nova Linha do Tempo
+
+    - Nova Galeria de Mídia

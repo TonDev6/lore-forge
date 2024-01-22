@@ -156,6 +156,7 @@
 }
 
 .highlight-panel {
+    text-decoration: none;
     text-decoration-line: underline;
     text-decoration-style: solid;
     font-style: italic;
