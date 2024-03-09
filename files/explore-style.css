@@ -1,14 +1,3 @@
-:root {
-    /* Base Colors */
-    --forge-bright: #F53500;
-    --forge-opaque: #C24827;
-    --dirty-bright: #8F4C39;
-    --dirty-dark: #5C3F37;
-    --darkest: #332B29;
-
-    /*  */
-}
-
 .main-explore {
     display: flex;
     flex-direction: column;
